@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="timeSlot">
+        <item>30 mins</item>
+        <item>60 mins</item>
+        <item>120 mins</item>
+    </string-array>
+    
+    <string-array name="interval">
+        <item>30 mins</item>
+        <item>60 mins</item>
+        <item>120 mins</item>
+    </string-array>
+	
+  	<string-array name="strength">
+        <item>Low</item>
+        <item>Moderate</item>
+        <item>Tough</item>
+    </string-array>
+    
+</resources>

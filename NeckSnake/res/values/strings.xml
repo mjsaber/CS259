@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">NeckSnake</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_snake">Snake</string>
+    <string name="mode_ready">Snake\nTouch To Play</string>
+    <string name="mode_pause">Paused\nTouch To Resume</string>
+    <string name="mode_lose">Score: %1$d \nTouch To Continue Playing</string>
+    <string name="mode_finished">Time\'s Up \nScore: %1$d</string>
+    <string name="title_activity_setting">Setting</string>
+    <string name="title_activity_monitor">Monitor</string>
+	<string name="play_game">Ready to Snake?</string>
+	<!-- Describes the purpose of the button to share the stopwatch value. -->
+    <string name="sw_share_button">Share</string>
+    <string name="timer_stop">Stop</string>
+
+    <!-- Abbreviation for temporal hours [CHAR LIMIT=1] -->
+    <string name="hours_label">h</string>
+    <!-- Abbreviation for temporal minutes [CHAR LIMIT=1] -->
+    <string name="minutes_label">m</string>
+    <!-- Abbreviation for temporal seconds [CHAR LIMIT=1] -->
+    <string name="seconds_label">s</string>
+    
+    <plurals name="Nhours_description">
+        <!-- 1 hour -->
+        <item quantity="one">1 hour</item>
+        <!-- more -->
+        <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> hours</item>
+    </plurals>
+    <plurals name="Nminutes_description">
+        <!-- 1 minute -->
+        <item quantity="one">1 minute</item>
+        <!-- more -->
+        <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> minutes</item>
+    </plurals>
+    <plurals name="Nseconds_description">
+        <!-- 1 second -->
+        <item quantity="one">1 second</item>
+        <!-- more -->
+        <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> seconds</item>
+    </plurals>
+</resources>

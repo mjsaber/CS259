@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".StartActivity"
+    android:background="@drawable/startpage" >
+
+    <Button
+        android:id="@+id/monitor"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:textSize="25sp"
+        android:layout_marginTop="350dp"
+        android:layout_centerHorizontal="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:drawableLeft="@drawable/monitoring"
+        android:onClick="monitor"
+        android:text="Monitor" />
+    
+    
+    <Button
+        android:id="@+id/game"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:textSize="25sp"
+       	android:layout_centerHorizontal="true"
+        android:onClick="playGame"
+        android:background="?android:attr/selectableItemBackground"
+        android:drawableLeft="@drawable/snake"
+        android:layout_below="@id/monitor"
+        android:text="Game" />
+    
+    <Button
+        android:id="@+id/setting"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/game"
+        android:background="?android:attr/selectableItemBackground"
+        android:drawableLeft="@drawable/setting"
+        android:fontFamily="Condensed bold-italic"
+        android:onClick="setting"
+        android:text="Setting" />
+
+</RelativeLayout>
